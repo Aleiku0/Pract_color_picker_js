@@ -1,9 +1,9 @@
 
 const color = document.getElementById("exampleColorInput");
 console.log(color);
-let btnColor = document.getElementById("btnColor");
-let colorElegido = document.querySelector(".colorElegido");
-let cardColor= document.querySelector(".card");
+const btnColor = document.getElementById("btnColor");
+const colorElegido = document.querySelector(".colorElegido");
+const cardColor= document.querySelector(".card");
 
 btnColor.addEventListener("click", () =>{
     console.log(color.value);
