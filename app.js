@@ -1,4 +1,13 @@
 
 const color = document.getElementById("exampleColorInput");
 console.log(color);
-console.log(color.value);
+let btnColor = document.getElementById("btnColor");
+let colorElegido = document.querySelector(".colorElegido");
+let cardColor= document.querySelector(".card");
+
+btnColor.addEventListener("click", () =>{
+    console.log(color.value);
+    colorElegido.textContent = color.value;
+    cardColor.style.backgroundColor = color.value;
+});
+
